@@ -33,15 +33,15 @@ fun main() {
             println("*********************************************************************************")
             println("Tabla de 1")
             println("***********")
-            prim()
+            mul(1)
             println("***********")
             println("Tabla de 3")
             println("***********")
-            ter()
+            mul(3)
             println("***********")
             println("Tabla de 5")
             println("***********")
-            quin()
+            mul(5)
             println("*********************************************************************************")
             otra()
         }
@@ -50,11 +50,11 @@ fun main() {
             println("*********************************************************************************")
             println("Tabla de 7")
             println("***********")
-            sep()
+            mul(7)
             println("***********")
             println("Tabla de 9")
             println("***********")
-            nov()
+            mul(9)
             println("*********************************************************************************")
             otra()
         }
@@ -65,15 +65,15 @@ fun main() {
             println("*********************************************************************************")
             println("Tabla de 1")
             println("***********")
-            prim()
+            mul(1)
             println("***********")
             println("Tabla de 3")
             println("***********")
-            ter()
+            mul(3)
             println("***********")
             println("Tabla de 5")
             println("***********")
-            quin()
+            mul(5)
             println("*********************************************************************************")
             otra()
         }
@@ -82,11 +82,11 @@ fun main() {
             println("*********************************************************************************")
             println("Tabla de 7")
             println("***********")
-            sep()
+            mul(7)
             println("***********")
             println("Tabla de 9")
             println("***********")
-            nov()
+            mul(9)
             println("*********************************************************************************")
             otra()
         }
@@ -97,11 +97,11 @@ fun main() {
             println("*********************************************************************************")
             println("Tabla de 2")
             println("***********")
-            sec()
+            mul(2)
             println("***********")
             println("Tabla de 4")
             println("***********")
-            cuar()
+            mul(4)
             println("*********************************************************************************")
             otra()
         }
@@ -110,15 +110,15 @@ fun main() {
             println("*********************************************************************************")
             println("Tabla de 6")
             println("***********")
-            se()
+            mul(6)
             println("***********")
             println("Tabla de 8")
             println("***********")
-            oct()
+            mul(8)
             println("***********")
             println("Tabla de 10")
             println("***********")
-            dec()
+            mul(10)
             println("*********************************************************************************")
             otra()
         }
@@ -128,123 +128,26 @@ fun main() {
         println("*********************************************************************************")
         println("Tabla de 11")
         println("***********")
-        und()
+        mul(11)
         println("***********")
         println("Tabla de 12")
         println("***********")
-        duo()
+        mul(12)
         println("***********")
         println("Tabla de 13")
         println("***********")
-        deter()
+        mul(13)
         println("*********************************************************************************")
         otra()
     }
     }
 
 
-fun prim(){
-    val uno = 1
+fun mul(num:Int){
 
     for (i in 1..10) {
-        val product = uno * i
-        println("$uno * $i = $product")
-    }
-}
-fun sec(){
-    val dos = 2
-
-    for (i in 1..10) {
-        val product = dos * i
-        println("$dos * $i = $product")
-    }
-}
-fun ter(){
-    val tres = 3
-
-    for (i in 1..10) {
-        val product = tres * i
-        println("$tres * $i = $product")
-    }
-}
-fun cuar(){
-    val cua = 4
-
-    for (i in 1..10) {
-        val product = cua * i
-        println("$cua * $i = $product")
-    }
-}
-fun quin(){
-    val cin = 5
-
-    for (i in 1..10) {
-        val product = cin * i
-        println("$cin * $i = $product")
-    }
-}
-fun se(){
-    val sei = 6
-
-    for (i in 1..10) {
-        val product = sei * i
-        println("$sei * $i = $product")
-    }
-}
-fun sep(){
-    val sie = 7
-
-    for (i in 1..10) {
-        val product = sie * i
-        println("$sie * $i = $product")
-    }
-}
-fun oct(){
-    val och = 8
-
-    for (i in 1..10) {
-        val product = och * i
-        println("$och * $i = $product")
-    }
-}
-fun nov(){
-    val nue = 9
-
-    for (i in 1..10) {
-        val product = nue * i
-        println("$nue * $i = $product")
-    }
-}
-fun dec(){
-    val die = 10
-
-    for (i in 1..10) {
-        val product = die * i
-        println("$die * $i = $product")
-    }
-}
-fun und(){
-    val on = 11
-
-    for (i in 1..10) {
-        val product = on * i
-        println("$on * $i = $product")
-    }
-}
-fun duo(){
-    val doc = 12
-
-    for (i in 1..10) {
-        val product = doc * i
-        println("$doc * $i = $product")
-    }
-}
-fun deter(){
-    val trec = 13
-
-    for (i in 1..10) {
-        val product = trec * i
-        println("$trec * $i = $product")
+        val product = num * i
+        println("$num * $i = $product")
     }
 }
 
