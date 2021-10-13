@@ -30,7 +30,7 @@ fun main() {
     if (mes == 1) {
         if (edad in 6..8){
             println("Edad: $edad. El alumno está dentro del rango [6-8]")
-            println("Te corresponden las tablas del 1, 3 y 5")
+            println("Mes: $mes. El mes es impar, corresponden las tablas siguientes: {1,3,5}")
             println("*********************************************************************************")
             println("Tabla de 1")
             println("***********")
@@ -48,7 +48,7 @@ fun main() {
         }
         if (edad in 9..10){
             println("Edad: $edad. El alumno está dentro del rango [9-10]")
-            println("Te corresponden las tablas del 7 y 9")
+            println("Mes: $mes. El mes es impar, corresponden las tablas siguientes: {7,9}")
             println("*********************************************************************************")
             println("Tabla de 7")
             println("***********")
@@ -64,7 +64,7 @@ fun main() {
     if (mes % 2 == 1) {
         if (edad in 6..8){
             println("Edad: $edad. El alumno está dentro del rango [6-8]")
-            println("Te corresponden las tablas del 1, 3 y 5")
+            println("Mes: $mes. El mes es impar, corresponden las tablas siguientes: {1,3,5}")
             println("*********************************************************************************")
             println("Tabla de 1")
             println("***********")
@@ -82,7 +82,7 @@ fun main() {
         }
         if (edad in 9..10){
             println("Edad: $edad. El alumno está dentro del rango [9-10]")
-            println("Te corresponden las tablas del 7 y 9")
+            println("Mes: $mes. El mes es impar, corresponden las tablas siguientes: {7,9}")
             println("*********************************************************************************")
             println("Tabla de 7")
             println("***********")
@@ -98,7 +98,7 @@ fun main() {
     if (mes % 2 == 0) {
         if (edad in 6..8){
             println("Edad: $edad. El alumno está dentro del rango [6-8]")
-            println("Te corresponden las tablas del 2 y 4")
+            println("Mes: $mes. El mes es par, corresponden las tablas siguientes: {2,4}")
             println("*********************************************************************************")
             println("Tabla de 2")
             println("***********")
@@ -112,7 +112,7 @@ fun main() {
         }
         if (edad in 9..10){
             println("Edad: $edad. El alumno está dentro del rango [9-10]")
-            println("Te corresponden las tablas del 6, 8 y 10")
+            println("Mes: $mes. El mes es par, corresponden las tablas siguientes: {6,8,10}")
             println("*********************************************************************************")
             println("Tabla de 6")
             println("***********")
